@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+@font-face{
+  font-family: "samarkan";
+  src:url("font/SAMARN__")
+}
+
+title{
+  font-family: "samarkan";
+}
+
+</style>
+<link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet">
+<title style="font-family: samarkan">Tech-Unlock 2k22</title>
+<link rel="shortcut icon" href="i/icon.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Events</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="i/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <img src="i/white.png" alt="Boss" style="width:60%" >
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>EVENTS</h2>
+    <p>Choose a Event</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge" >Runtime Terror</p>
+        </li>
+        <li class="w3-padding-16">Coding Challenge</li>
+        <li class="w3-padding-16">Solo or Duet Entry</li>
+        <li class="w3-padding-16">Shubham Aajmane: 9552400654</li>
+        <li class="w3-padding-16">Apoorva Kale: 8485803411</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 100 / Rs. 200</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">The Big Brain</p>
+        </li>
+        <li class="w3-padding-16">Project Presentation</li>
+        <li class="w3-padding-16">Group Entry(4 people)</li>
+        <li class="w3-padding-16">Adesh Medhe: 7410718818</li>
+        <li class="w3-padding-16">Kajal Mane: 9359557501</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 300</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Mad Over Match</p>
+        </li>
+        <li class="w3-padding-16">Box Cricket</li>
+        <li class="w3-padding-16">Duet or Boys Group(6 people) Entry</li>
+        <li class="w3-padding-16">Harshal Patil: 9309156970</li>
+        <li class="w3-padding-16">Omkar Kapase: 8605053902 </li>
+        <li class="w3-padding-16">
+         <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 300</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+      <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Bid City</p>
+        </li>
+        <li class="w3-padding-16">IPL Auction</li>
+        <li class="w3-padding-16">Solo or Duet Entry</li>
+        <li class="w3-padding-16">Nilesh Patil: 8329371124</li>
+        <li class="w3-padding-16">Manasi Deshpande: 8390967757</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 100 / Rs. 200</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Retro Focus</p>
+        </li>
+        <li class="w3-padding-16">Mobile Photography</li>
+        <li class="w3-padding-16">Solo Entry</li>
+        <li class="w3-padding-16">Shubham Patil: 7774848529</li>
+        <li class="w3-padding-16">Sejal Jakanur: 9449880339</li>
+        <li class="w3-padding-16">
+         <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 100</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Corporate Madness</p>
+        </li>
+        <li class="w3-padding-16">Campus Recrutment</li>
+        <li class="w3-padding-16">Solo Entry</li>
+        <li class="w3-padding-16">Prasenjeet Gangavane: 7887975009</li>
+        <li class="w3-padding-16">Akshata Gavade: 8177826965</li>
+        <li class="w3-padding-16">
+         <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 100</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+      <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">War of Glory</p>
+        </li>
+        <li class="w3-padding-16">BGMI</li>
+        <li class="w3-padding-16">Solo or Squad Entry</li>
+        <li class="w3-padding-16">Yuvraj Mali: 9561089378</li>
+        <li class="w3-padding-16">Viraj Malikwade: 7559479793</li>
+        <li class="w3-padding-16">
+         <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 100 / Rs. 300</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Chakravyuh</p>
+        </li>
+        <li class="w3-padding-16">Treasure Hunt</li>
+        <li class="w3-padding-16">Group Entry(4 people)</li>
+        <li class="w3-padding-16">Ayush Kamble: 9321548857</li>
+        <li class="w3-padding-16">Veda Minchekar: 9370937573</li>
+        <li class="w3-padding-16">
+         <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 300</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Innovative Mind</p>
+        </li>
+        <li class="w3-padding-16">Paper Presentation</li>
+        <li class="w3-padding-16">solo or Duet Entry</li>
+        <li class="w3-padding-16">Sammed Shirote: 8390240510</li>
+        <li class="w3-padding-16">Vaidehi Mhaiskar: 8007871837</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide" style="font-family: Britannic Bold"><b>Rs. 100 / Rs. 200</b></h2>
+          <span class="w3-opacity">Entry Fee</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Register</button>
+        </li>
+      </ul>
+    </div>
+    
+</div>
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Meet the Team</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="i/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Rohit Konduskar</h3>
+  <p>President, COMPESA</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="i/avatar1.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Pranav Gidde</h3>
+  <p>Vice-President, COMPESA</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="i/avatar2.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Amit Todakar</h3>
+  <p>Treasurer, COMPESA</p>
+
+</div>
+
+<div class="w3-quarter">
+  <img src="i/avatar3.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Pournima Adagane</h3>
+  <p>Secretary, COMPESA</p>
+</div>
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" style="margin-top: 300px" id="contact">
+  <div class="w3-row">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+    <div class="w3-col m3" style="margin-left: 25%">
+    
+      <h4>Rohit Konduskar: 9604078058</h4>
+      <h4>Pranav Gidde: 8928052001</h4>
+      <h4>Amit Todakar: 9422740496</h4>
+      <h4>Yuvraj Mali: 9561089378</h4>
+      <h4>Pournima Adagane: 9970083434</h4>
+      
+    </div>
+    <div class="w3-col m3">
+      <h4>Rushikesh Kamble: 8788365455</h4>
+      <h4>Hrishikesh Gharge: 7387454484</h4>
+      <h4>Sammed Shirote: 8390240510</h4>
+      <h4>Shubham Patil: 7774848529</h4>
+      <h4>Veda Minchekar: 9370937573</h4>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Image of location/map -->
+<img src="i/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+ 
+  <p>Powered by COMPESA</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
